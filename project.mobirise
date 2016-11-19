@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.8.8",
-    "uniqCompNum": 16,
+    "uniqCompNum": 18,
     "versionPublish": "3.9.2",
     "publishType": "github",
     "path": "@PROJECT_PATH@"
@@ -75,7 +75,7 @@
           "_params": {
             "labelsColor": "#232323",
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -129,19 +129,16 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-e",
+          "_anchor": "content1-h",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
-          "text": "By filling out the form you agree with the <a href=\"page1.html\" class=\"text-black\">Therms and Conditions</a> of this game",
+          "text": "<p>By filling out the form you agree with the <a href=\"page1.html\">Therms and Conditions of the Game</a></p>",
           "_styles": {
-            "DIV": {
-              "text-align": "center",
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "12px"
+            "P": {
+              "text-align": "center"
             }
           }
         }
@@ -175,7 +172,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Title with Solid Background Color",
+          "title": "Therms and Conditions",
           "meta": "For participating in the Mbr-Test-Game"
         },
         {
@@ -208,7 +205,7 @@
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Go Back</a>"
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">I Accept !</a>"
         }
       ]
     },
