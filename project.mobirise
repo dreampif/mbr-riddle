@@ -135,7 +135,7 @@
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
-          "text": "By filling out the form you agree with the <a href=\"page1.html\">Therms and Conditions</a> of this game",
+          "text": "By filling out the form you agree with the <a href=\"page1.html\" class=\"text-black\">Therms and Conditions</a> of this game",
           "_styles": {
             "DIV": {
               "text-align": "center",
